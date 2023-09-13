@@ -14,6 +14,7 @@ import FunPro from "./5.props/FunPro";
 import FragmantCom from "./6.fragmant/FragmantCom";
 import CondCom from "./7.conditionalRendaring/CondCom";
 import MapKeyCom from "./8.map-key/MapKeyCom";
+import LIfeCycle from "./11.LifeCycle_method/LIfeCycle";
 
 
 
@@ -47,7 +48,9 @@ function App(){
 
       {/* <CondCom/> */}
 
-      <MapKeyCom/>
+      {/* <MapKeyCom/> */}
+
+      <LIfeCycle/>
      
     </div>
   );
