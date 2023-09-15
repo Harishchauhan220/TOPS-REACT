@@ -15,6 +15,10 @@ import FragmantCom from "./6.fragmant/FragmantCom";
 import CondCom from "./7.conditionalRendaring/CondCom";
 import MapKeyCom from "./8.map-key/MapKeyCom";
 import LIfeCycle from "./11.LifeCycle_method/LIfeCycle";
+import UseEffectCom from "./9.Hook/UseEffectCom";
+import UseEffectPro from "./9.Hook/UseEffectPro";
+import UseRefCom from "./9.Hook/UseRef/UseRefCom";
+
 
 
 
@@ -50,7 +54,14 @@ function App(){
 
       {/* <MapKeyCom/> */}
 
-      <LIfeCycle/>
+      {/* <UseEffectPro/> */}
+
+
+      {/* <UseEffectCom/> */}
+
+     <UseRefCom/>
+
+      {/* <LIfeCycle/> */}
      
     </div>
   );
