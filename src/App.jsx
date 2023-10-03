@@ -18,6 +18,9 @@ import LIfeCycle from "./11.LifeCycle_method/LIfeCycle";
 import UseEffectCom from "./9.Hook/UseEffectCom";
 import UseEffectPro from "./9.Hook/UseEffectPro";
 import UseRefCom from "./9.Hook/UseRef/UseRefCom";
+import InputCom from "./10.Input/InputCom";
+import InputUpdate from "./10.Input/InputUpdate";
+import TATA from "./TEST/TATA";
 
 
 
@@ -59,9 +62,17 @@ function App(){
 
       {/* <UseEffectCom/> */}
 
-     <UseRefCom/>
+      {/* <UseRefCom/> */}
 
       {/* <LIfeCycle/> */}
+
+      {/* <InputCom/> */}
+
+      {/* <InputUpdate/> */}
+
+
+      <TATA/>
+  
      
     </div>
   );
