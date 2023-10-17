@@ -21,6 +21,8 @@ import UseRefCom from "./9.Hook/UseRef/UseRefCom";
 import InputCom from "./10.Input/InputCom";
 import InputUpdate from "./10.Input/InputUpdate";
 import TATA from "./TEST/TATA";
+import Router from "./12.Routing/Router";
+
 
 
 
@@ -28,7 +30,7 @@ import TATA from "./TEST/TATA";
 
 function App(){
   return(
-    <div>
+    <>
 
       {/* <HeaderCom/>
       <Body/>
@@ -71,10 +73,14 @@ function App(){
       {/* <InputUpdate/> */}
 
 
-      <TATA/>
+      {/* <TATA/> */}
+
+      <Router/>
+
+      
   
      
-    </div>
+    </>
   );
 }
 

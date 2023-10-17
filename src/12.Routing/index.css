@@ -1,0 +1,20 @@
+.container {
+    width: 100% !important;
+    /* background-color: aqua; */
+}
+
+li{
+    margin-left: 50px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.active{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
