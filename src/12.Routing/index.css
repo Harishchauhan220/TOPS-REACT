@@ -18,3 +18,7 @@ li a{
     font-style: italic;
     font-weight: bold;
 }
+div a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,11 +1,13 @@
 import React from 'react'
 import Home from './Home'
 import About from './About'
-import Service from './Service'
+import Service from './Service/Service'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Error404 from './Error404';
 import Header from './Header';
 import "./index.css";
+import BikeService from './Service/BikeService';
+import CarService from './Service/CarService';
 
 export default function Router() {
     return (
@@ -30,13 +32,17 @@ export default function Router() {
                     <Header />
 
                     <Routes>
-                        <Route path='/home' Component={Home} />
-                        <Route path="/service" element={<Service />} />
-                        <Route path="/about" element={<About />} />
+                        <Route path="/" Component={Home} />
+                        <Route path="/service">
+                        <Route index element={<Service />} />
+                        <Route path="/service/bike" element={<BikeService />} />
+                        <Route path="/service/car" element={<CarService />} />
+                        </Route>
+                        <Route path="/about" element={<About />} />              
                         <Route path="*" element={<Error404 />} />
                     </Routes>
                 </BrowserRouter>
             </div>
         </>
-    )
+    );
 }
