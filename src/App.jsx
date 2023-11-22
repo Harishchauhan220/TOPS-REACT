@@ -75,7 +75,7 @@ function App(){
 
       {/* <TATA/> */}
 
-      <Router/>
+      {/* <Router/> */}
 
       
   
